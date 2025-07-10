@@ -2,10 +2,6 @@
 
 Highmark's TeX-like functionality.
 
-This package includes the lexical entries, BNF, lexers and parsers for both the Markdown and Markdown Style languages.
-Those familiar with Markdown will find that the Markdown implementation here to be mostly familiar.
-On the other hand, the Markdown Style language is entirely new and is most akin to CSS.
-
 ### Contents
 
 - [Introduction](#introduction)
@@ -32,7 +28,7 @@ All of the other packages are likely only of interest to prospective developers.
 
 If you would like to contribute or would simply like to have a look at the code, you can clone the repository with [Git](https://git-scm.com/)...
 
-    git clone https://github.com/djalbat/highmark-markdown.git
+    git clone https://github.com/djalbat/highmark-tex.git
 
 ...and then install the dependencies with [npm](https://www.npmjs.com/) from within the project's root directory:
 
