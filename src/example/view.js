@@ -10,12 +10,11 @@ const { get } = ajaxUtilities;
 export default class View extends Element {
   didMount() {
     const codePoint = 0x1d538,
-          fontName = "STIXTwoMath-Regular.otf",
           host = "http://localhost:8888/",
-          uri = `ttf/${fontName}`,
+          uri = `otf/STIXTwoText-Regular.otf`,
           query = {},
           headers = {
-            "accept": "font/ttf"
+            "accept": "font/otf"
           },
           responseType = "arraybuffer";
 
