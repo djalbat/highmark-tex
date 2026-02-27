@@ -1,7 +1,7 @@
 {
   "name": "highmark-tex",
   "author": "James Smith",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "license": "MIT, Anti-996",
   "homepage": "https://github.com/djalbat/highmark-tex",
   "description": "Highmark's TeX-like functionality.",
@@ -35,5 +35,9 @@
     "watch": "npm run clean && npm run batch && npm run incremental",
     "watch-debug": "npm run clean && npm run batch-debug && npm run incremental-debug"
   },
+  "files": [
+    "src",
+    "lib"
+  ],
   "main": "./lib/index.js"
 }
